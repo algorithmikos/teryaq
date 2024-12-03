@@ -1,0 +1,31 @@
+.list-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.active .MuiButtonBase-root {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.active .MuiSvgIcon-root {
+  color: white;
+}
+
+.list-item-link:hover .MuiButtonBase-root {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.list-item-link:hover .MuiSvgIcon-root {
+  color: white;
+}
+
+.MuiListItemText-root {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.MuiListItemIcon-root {
+  margin-right: 10px !important;
+}

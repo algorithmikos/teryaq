@@ -1,0 +1,22 @@
+.loader-img-animation {
+  height: 35px;
+  width: 35px;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  transform: rotate(10deg); /* Optional: Initial rotation */
+  animation: swing 1s ease-in-out infinite;
+}
+
+@keyframes swing {
+  0%,
+  100% {
+    transform: rotate(10deg); /* Optional: Initial rotation */
+  }
+  50% {
+    transform: rotate(-10deg); /* Adjust the angle of the swing */
+  }
+}
+
+.loader-text {
+  font-weight: bold;
+}

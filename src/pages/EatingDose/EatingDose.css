@@ -1,0 +1,37 @@
+.rmsc .dropdown-content .options {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.item-renderer > span {
+  padding-right: 5px !important;
+}
+
+.search-clear-button {
+  margin-right: 215px !important;
+  margin-top: 8px !important;
+}
+
+.selected-item-view .MuiSvgIcon-root {
+  font-size: 20px !important;
+  color: #1976d2;
+}
+
+.item-mod-modal {
+  min-height: 150px;
+}
+
+.qty-num-input-field .MuiInputBase-root {
+  height: 40px !important;
+}
+
+.dose-chip .MuiSvgIcon-root {
+  color: var(--main-color) !important;
+  margin-right: 8px !important;
+  margin-left: 0px !important;
+}
+
+.dose-chip .MuiChip-label {
+  font-weight: 500;
+  font-size: large;
+}

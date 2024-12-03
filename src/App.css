@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+:root {
+  --main-color: #597E52;
+  --darker-main: #4a6843;
+  --secondary-color: #C6A969;
+  --darker-sec: #aa790e;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.top-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mrl-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+label.MuiFormLabel-root[data-shrink="false"] {
+  right: 0;
+  padding-right: 32px !important;
+}
+
+label.MuiFormLabel-root[data-shrink="true"] {
+  margin: 0 10px 0 2px;
+  font-weight: 500;
+}
+
+.MuiInputBase-root .MuiSvgIcon-root {
+  right: auto;
+  left: 7px;
+}
+
+.MuiSelect-select {
+  padding-right: 20px !important;
+}
+
+.section-title {
+  padding-bottom: 20px;
+}
+
+.MuiButton-startIcon {
+  margin-left: 8px !important;
+  margin-right: -4px !important;
+}
+
+.MuiButton-endIcon {
+  margin-left: -4px !important;
+  margin-right: 8px !important;
+}
+
+.MuiAlert-action {
+  padding: 0 !important;
+  padding-right: 6px !important;
+  padding-top: 4px !important;
+}
+
+.ltr-input-field.MuiFormControl-root {
+  direction: ltr;
+}
+
+.MuiDateCalendar-root {
+  direction: ltr;
+}
+
+.MuiLoadingButton-loadingIndicator {
+  left: auto !important;
+  right: 14px !important;
+}
+
+.info-callout {
+  padding-left: 6px !important;
+  padding-right: 2px !important;
+}
+
+.info-callout .MuiAlert-icon {
+  padding-left: 5px !important;
+}

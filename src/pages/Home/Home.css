@@ -1,0 +1,10 @@
+.list-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.list-item-link:hover .MuiButtonBase-root {
+  background-color: var(--main-color);
+  color: white;
+}
+

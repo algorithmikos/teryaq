@@ -1,0 +1,26 @@
+.copyrights-card {
+  padding: 10px;
+  background-color: rgba(247, 241, 241, 0.856) !important;
+  color: var(--main-color) !important;
+}
+
+.copyrights-card a {
+  text-decoration: none;
+  color: var(--darker-sec);
+}
+
+.info-chip.MuiChip-root {
+  color: var(--main-color) !important;
+  /* background-color: var(--secondary-color) !important; */
+}
+
+.info-chip .MuiSvgIcon-root {
+  color: var(--main-color) !important;
+  margin-right: 8px !important;
+  margin-left: 0px !important;
+}
+
+.info-chip .MuiChip-label {
+  font-weight: 700;
+  font-size: large;
+}

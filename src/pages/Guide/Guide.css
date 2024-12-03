@@ -1,0 +1,28 @@
+.guide-cards-container {
+  margin-left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-button {
+  background-color: var(--main-color) !important;
+}
+
+.filter-button:hover {
+  background-color: var(--darker-main) !important;
+}
+
+.remove-filter-button {
+  background-color: var(--secondary-color) !important;
+}
+
+.remove-filter-button[disabled] {
+  color: rgba(0, 0, 0, 0.26) !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.remove-filter-button:hover {
+  background-color: var(--darker-sec) !important;
+  color: white !important;
+}

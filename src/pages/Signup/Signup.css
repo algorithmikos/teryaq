@@ -1,0 +1,7 @@
+.age-container .MuiFormControl-root {
+  width: 100%;
+}
+
+.username-container .MuiFormHelperText-root {
+  direction: rtl !important;
+}
